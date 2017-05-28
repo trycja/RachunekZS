@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/bk01"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="B"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bk02"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:paddingRight="3dp"
+                android:text="Koszty sprzedanych produktów, towarów i materiałów, w tym:  - jednostkom powiązanym"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bk03"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok poprzedni"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/bk04"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok obrotowy"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/bk11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <TextView
+                android:id="@+id/bk12"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5.15"
+                android:text=" Koszt wytworzenia sprzedanych produktów" />
+
+            <EditText
+                android:id="@+id/bk13"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:text="0"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/bk14"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:text="0"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/bk21"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="II" />
+
+            <TextView
+                android:id="@+id/bk22"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Wartość sprzedanych towarów i materiałów" />
+
+            <EditText
+                android:id="@+id/bk23"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:text="0"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/bk24"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:text="0"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <Button
+            android:id="@+id/btn_bk"
+            android:layout_width="124dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:onClick="bkc"
+            android:text="Dalej"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/ak01"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ak02"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:paddingRight="3dp"
+                android:text="Przychody netto ze sprzedaży produktów, towarów i materiałów, w tym:  - od jednostek powiązanych"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ak03"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok poprzedni"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ak04"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok obrotowy"
+                android:textAlignment="center"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/ak11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <TextView
+                android:id="@+id/ak12"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5.15"
+                android:text="Przychody netto ze sprzedaży produktów " />
+
+            <EditText
+                android:id="@+id/ak13"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/ak14"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/ak21"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="II" />
+
+            <TextView
+                android:id="@+id/ak22"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Przychody netto ze sprzedaży towarów i materiałów" />
+
+            <EditText
+                android:id="@+id/ak23"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/ak24"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:text="0"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <Button
+            android:id="@+id/btn_akalkulacyjny"
+            android:layout_width="219dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="ak"
+            android:text="Dalej" />
+
+
+    </LinearLayout>
+</ScrollView>

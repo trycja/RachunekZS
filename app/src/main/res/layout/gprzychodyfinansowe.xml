@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g01"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="G"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/g02"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Przychody finansowe  "
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/g03"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok poprzedni"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/g04"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="Kwota za rok obrotowy"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <TextView
+                android:id="@+id/g12"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Dywidendy i udziały w zyskach, w tym:  - od jednostek powiązanych   " />
+
+            <EditText
+                android:id="@+id/g13"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:id="@+id/g14"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g21"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="II" />
+
+            <TextView
+                android:id="@+id/g22"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Odsetki, w tym:  - od jednostek powiązanych   " />
+
+            <EditText
+                android:id="@+id/g23"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:id="@+id/g24"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g31"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="III" />
+
+            <TextView
+                android:id="@+id/g32"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Zysk ze zbycia inwestycji   " />
+
+            <EditText
+                android:id="@+id/g33"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/g34"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g41"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="IV" />
+
+            <TextView
+                android:id="@+id/g42"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text=" Aktualizacja wartości inwestycji   " />
+
+            <EditText
+                android:id="@+id/g43"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:inputType="numberDecimal"
+                android:id="@+id/g44"
+                android:text="0"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10"
+            android:layout_height="70dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/g51"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="V" />
+
+            <TextView
+                android:id="@+id/g52"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Inne    " />
+
+            <EditText
+                android:id="@+id/g53"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+
+            <EditText
+                android:id="@+id/g54"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_g"
+            android:layout_width="124dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="gh"
+            android:text="Dalej" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RachunekZS</string>
+    <string name="wroc">Wróć</string>
+    <string name="kwotaa1">Kwota za rok poprzedni</string>
+    <string name="kwotaa2">Kwota za rok obrotowy</string>
+</resources>

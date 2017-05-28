@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:windowSoftInputMode="stateHidden|adjustResize"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/a01"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="A"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/a02"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:paddingRight="3dp"
+                android:text="Przychody netto ze sprzedaży i zrównane z nimi, w tym:  - od jednostek powiązanych"
+                android:textAllCaps="false"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/a03"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="@string/kwotaa1"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/a04"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:text="@string/kwotaa2"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/a11"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <TextView
+                android:id="@+id/a12"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Przychody netto ze sprzedaży produktów" />
+
+            <EditText
+                android:id="@+id/a13"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/a14"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/a21"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="II" />
+
+            <TextView
+                android:id="@+id/a22"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Zmiana stanu produktów (zwiększenie - wartość dodatnia, zmniejszenie - wartość ujemna)  " />
+
+            <EditText
+                android:id="@+id/a23"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:text="0"
+                android:id="@+id/a24"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/a31"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="III" />
+
+            <TextView
+                android:id="@+id/a32"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Koszt wytworzenia produktów na własne potrzeby jednostki " />
+
+            <EditText
+                android:id="@+id/a33"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/a34"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <TextView
+                android:id="@+id/a41"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:text="IV" />
+
+            <TextView
+                android:id="@+id/a42"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="5"
+                android:text="Przychody netto ze sprzedaży towarów i materiałów " />
+
+            <EditText
+                android:id="@+id/a43"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+
+            <EditText
+                android:id="@+id/a44"
+                android:text="0"
+                android:inputType="numberDecimal"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="2" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <Button
+            android:id="@+id/btn_a"
+            android:layout_width="124dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="ab"
+            android:text="Dalej" />
+
+
+    </LinearLayout>
+</ScrollView>

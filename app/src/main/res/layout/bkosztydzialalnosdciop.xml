@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="11"
+        android:id="@+id/layoutb"
+        >
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b01"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="B"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/b02"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Koszty działalności operacyjnej  "
+            android:textAllCaps="false"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/b03"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:text="Kwota za rok poprzedni"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/b04"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            android:text="Kwota za rok obrotowy"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="33dp" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b11"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="I" />
+
+        <TextView
+            android:id="@+id/b12"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Amortyzacja" />
+
+        <EditText
+            android:id="@+id/b13"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b14"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b21"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="II" />
+
+        <TextView
+            android:id="@+id/b22"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Zużycie materiałów i energii " />
+
+        <EditText
+            android:id="@+id/b23"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b24"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b31"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="III" />
+
+        <TextView
+            android:id="@+id/b32"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Usługi obce" />
+
+        <EditText
+            android:id="@+id/b33"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b34"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b41"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="IV" />
+
+        <TextView
+            android:id="@+id/b42"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Podatki i opłaty, w tym:  - podatek akcyzowy " />
+
+        <EditText
+            android:id="@+id/b43"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b44"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b51"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="V" />
+
+        <TextView
+            android:id="@+id/b52"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Wynagrodzenia  " />
+
+        <EditText
+            android:id="@+id/b53"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b54"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b61"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="VI" />
+
+        <TextView
+            android:id="@+id/b62"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Ubezpieczenia społeczne i inne świadczenia   " />
+
+        <EditText
+            android:id="@+id/b63"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+           />
+
+        <EditText
+            android:id="@+id/b64"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b71"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="VII" />
+
+        <TextView
+            android:id="@+id/b72"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Pozostałe koszty rodzajowe" />
+
+        <EditText
+            android:id="@+id/b73"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+            />
+
+        <EditText
+            android:id="@+id/b74"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+           />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:layout_height="70dp"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/b81"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="VIII" />
+
+        <TextView
+            android:id="@+id/b82"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:text="Wartość sprzedanych towarów i materiałów  " />
+
+        <EditText
+            android:id="@+id/b83"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2" />
+
+        <EditText
+            android:id="@+id/b84"
+            android:text="0"
+            android:inputType="numberDecimal"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="2"
+           />
+    </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_b"
+            android:layout_width="124dp"
+            android:layout_height="51dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginBottom="23dp"
+            android:background="@drawable/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:onClick="bc"
+            android:text="Dalej" />
+
+
+</LinearLayout>
+</ScrollView>
